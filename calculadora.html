@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section class=" ">
+            
+                <h3 class="ejercicio">Calculadora Basica</h3>
+                <form class="formSuma">
+                    <div class="divu">
+                        <div class="divdos">
+                            <label for="n1"></label>
+                            <input  autofocus  type="text" name="" class="campnumber" id="nUno" placeholder="" required />
+                            <label for="n1"></label>
+                            <input type="text" name=""  class="campnumber" id="nDos"  placeholder="" required />
+                        </div>
+                        <div class="divdos">
+
+                            <label for="formRes"></label>
+                            <input type="text"  class="campo1"  id="resul" placeholder="" disabled><br>
+                        </div>
+                    </div>
+                    <div class="containesbutton">
+                        <button type="reset" class="botoNumeros-borrar">C</button>
+                        <!-- <button class="botoNumeros"></button> -->
+                        <button type="button" class="botoNumeros">⇦</button>
+                        <button type="button" class="botoNumeros-signos" id="sumar" >+</button>
+                        <button type="button" class="botoNumeros" id="nume">9</button>
+                        <button type="button" class="botoNumeros" id="nume">8</button>
+                        <button type="button" class="botoNumeros" id="nume">7</button>
+                        <button type="button" type="button" class="botoNumeros-signos" id="restar">-</button>
+                        <button type="button" class="botoNumeros" id="nume">6</button>
+                        <button type="button" class="botoNumeros" id="nume">5</button>
+                        <button type="button" class="botoNumeros" id="nume">4</button>
+                        <button type="button" type="button" class="botoNumeros-signos"id="multiplicar">*</button>
+                        <button type="button" class="botoNumeros" id="nume">3</button>
+                        <button type="button" class="botoNumeros" id="nume">2</button>
+                        <button type="button" class="botoNumeros" id="nume">1</button>
+                        <button type="button" type="button" class="botoNumeros-signos" id="dividir" >/</button>
+                        <button type="button" class="botoNumeros" id="nume">0</button>
+                        <button type="button" class="botoNumeros-punto">.</button>
+                        <button type="button" class="botoNumeros-igual" onclick="calcularBoton()" >=</button>
+                     
+                    </div>
+                   <!-- <div class="botones">
+                        
+                        <button type="button" class="btn uno" id="sumar">+</button>
+                        
+                        <button type="button" class="btn dos" id="restar">-</button>
+                    
+                        <button type="button" class="btn tres" id="multiplicar">*</button>
+                        
+                        <button type="button" class="btn cuatro" id="dividir">/</button>
+                        <button type="reset" class="btn btn-success">Limpiar</button>
+                    </div>
+                    <button type="button" class="btn btn-info" onclick="calcularBoton()">Calcular</button> -->
+                </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="calculadora.js"></script>
+</body>
+</html>
